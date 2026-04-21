@@ -4,7 +4,6 @@
   <artifactId>MyShopAutomation</artifactId>
   <version>0.0.1-SNAPSHOT</version> 
  
-  
   <build>
     <pluginManagement>
       <plugins>
@@ -16,8 +15,7 @@
                 <source>17</source>
                 <target>17</target>
             </configuration>
-        </plugin>
-        
+        </plugin> 
           <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-surefire-plugin</artifactId>
@@ -43,6 +41,8 @@
     <scope>test</scope>
 </dependency>
 
+
+        
 
 <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
 <dependency>

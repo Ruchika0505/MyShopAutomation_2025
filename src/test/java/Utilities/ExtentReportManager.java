@@ -44,7 +44,9 @@ public class ExtentReportManager implements ITestListener {
 		*/
 		
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());// time stamp
+		
 		repName = "Test-Report-" + timeStamp + ".html";
+		
 		sparkReporter = new ExtentSparkReporter(".\\reports\\" + repName);// specify location of the report
 
 		sparkReporter.config().setDocumentTitle("MyShop Automation Report"); // Title of report
@@ -87,6 +89,7 @@ public class ExtentReportManager implements ITestListener {
 		test.log(Status.FAIL,result.getName()+" got failed");
 		test.log(Status.INFO, result.getThrowable().getMessage());
 		Object testClass = result.getInstance(); //get instance create the specific class object.
+		
 		WebDriver driver = ((BaseTest) testClass).driver;
 		
 		try {

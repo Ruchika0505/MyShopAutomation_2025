@@ -648,3 +648,113 @@
 17:33:49.181 [main] INFO  TestCases.RegistrationDDTTest - Started account creation with email: ytVbp@gmail.com
 17:33:52.310 [main] INFO  TestCases.RegistrationDDTTest - Filled registration form for: John Doe
 17:33:52.357 [main] INFO  TestCases.RegistrationDDTTest - Submitted registration form
+15:20:42.539 [main] INFO  TestCases.LoginPageTest - Starting test: verifyUserLogin
+15:20:45.548 [main] DEBUG TestCases.LoginPageTest - Waiting for page to load
+15:20:45.552 [main] DEBUG TestCases.LoginPageTest - Created HomePage and LoginPage objects
+15:20:47.715 [main] INFO  TestCases.LoginPageTest - Clicked on Sign In link
+15:20:51.874 [main] INFO  TestCases.LoginPageTest - Entered login credentials: testuser@example.com / testpassword
+15:20:54.948 [main] DEBUG TestCases.LoginPageTest - Captured login error text: There is 1 error
+15:20:54.951 [main] INFO  TestCases.LoginPageTest - Verified login error message successfully
+15:20:54.952 [main] INFO  TestCases.LoginPageTest - Ending test: verifyUserLogin
+15:21:03.854 [main] INFO  TestCases.CartPageTest - ***** Starting TC001_CartPageTest Started ****
+15:21:03.854 [main] DEBUG TestCases.CartPageTest - This is a debug log message
+15:21:05.011 [main] INFO  TestCases.CartPageTest - ***** Clicked on Add to Cart ****
+15:21:05.135 [main] INFO  TestCases.CartPageTest - ***** Ended TC001_CartPageTest Started ****"
+15:21:13.089 [main] INFO  TestCases.HomePageTest - Starting test: verifyProductSearch
+15:21:13.090 [main] DEBUG TestCases.HomePageTest - Created HomePage object
+15:21:14.406 [main] INFO  TestCases.HomePageTest - Searched for product: 'dress'
+15:21:14.407 [main] DEBUG TestCases.HomePageTest - Search result text: "DRESS"
+15:21:14.407 [main] INFO  TestCases.HomePageTest - Search results contain the word 'DRESS' - Test Passed
+15:21:14.407 [main] INFO  TestCases.HomePageTest - Ending test: verifyProductSearch
+15:21:22.166 [main] INFO  TestCases.ProductPageTest - Starting test: verifyAddToCartAndCheckout
+15:21:22.168 [main] DEBUG TestCases.ProductPageTest - Created ProductPage object
+15:21:25.170 [main] DEBUG TestCases.ProductPageTest - Waiting for product page to load
+15:21:26.310 [main] INFO  TestCases.ProductPageTest - Clicked 'Add to Cart' button
+15:21:29.413 [main] DEBUG TestCases.ProductPageTest - Retrieved cart message: Your shopping cart is empty.
+15:21:29.413 [main] INFO  TestCases.ProductPageTest - Verified that cart is empty
+15:21:29.414 [main] INFO  TestCases.ProductPageTest - Ending test: verifyAddToCartAndCheckout
+15:21:36.971 [main] INFO  TestCases.RegistrationDDTTest - Starting Data-Driven Registration Test
+15:21:36.972 [main] DEBUG TestCases.RegistrationDDTTest - Excel file path: C:\Users\ruchika\eclipse-workspace\Ruchika\MyShopAutomation\Test Data\Registration.xlsx
+15:21:37.169 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+15:21:37.172 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+15:21:37.740 [main] INFO  TestCases.RegistrationDDTTest - Total rows in Excel: 2
+15:21:37.756 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+15:21:37.758 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+15:21:37.803 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+15:21:37.804 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+15:21:37.849 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+15:21:37.852 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+15:21:37.869 [main] INFO  TestCases.RegistrationDDTTest - Executing registration for: eUnck@gmail.com
+15:21:37.869 [main] DEBUG TestCases.RegistrationDDTTest - First Name: John, Last Name: Doe, Password: test@123
+15:21:39.524 [main] INFO  TestCases.RegistrationDDTTest - Started account creation with email: eUnck@gmail.com
+15:21:42.810 [main] INFO  TestCases.RegistrationDDTTest - Filled registration form for: John Doe
+15:21:50.765 [main] INFO  TestCases.RegistrationDDTTest - Submitted registration form
+15:21:52.633 [main] INFO  TestCases.RegistrationDDTTest - Signed out after registration
+15:21:52.660 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+15:21:52.666 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+15:21:52.757 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+15:21:52.761 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+15:21:52.807 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+15:21:52.807 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+15:21:52.825 [main] INFO  TestCases.RegistrationDDTTest - Executing registration for: hLzsl@gmail.com
+15:21:52.825 [main] DEBUG TestCases.RegistrationDDTTest - First Name: Jane, Last Name: Smith, Password: test@456
+15:21:54.328 [main] INFO  TestCases.RegistrationDDTTest - Started account creation with email: hLzsl@gmail.com
+15:21:57.954 [main] INFO  TestCases.RegistrationDDTTest - Filled registration form for: Jane Smith
+15:22:04.922 [main] INFO  TestCases.RegistrationDDTTest - Submitted registration form
+15:22:06.879 [main] INFO  TestCases.RegistrationDDTTest - Signed out after registration
+15:22:06.880 [main] INFO  TestCases.RegistrationDDTTest - Data-Driven Registration Test Completed
+09:38:11.457 [main] INFO  TestCases.LoginPageTest - Starting test: verifyUserLogin
+09:38:14.464 [main] DEBUG TestCases.LoginPageTest - Waiting for page to load
+09:38:14.466 [main] DEBUG TestCases.LoginPageTest - Created HomePage and LoginPage objects
+09:38:16.216 [main] INFO  TestCases.LoginPageTest - Clicked on Sign In link
+09:38:19.390 [main] INFO  TestCases.LoginPageTest - Entered login credentials: testuser@example.com / testpassword
+09:38:22.418 [main] DEBUG TestCases.LoginPageTest - Captured login error text: There is 1 error
+09:38:22.419 [main] INFO  TestCases.LoginPageTest - Verified login error message successfully
+09:38:22.419 [main] INFO  TestCases.LoginPageTest - Ending test: verifyUserLogin
+09:38:31.548 [main] INFO  TestCases.CartPageTest - ***** Starting TC001_CartPageTest Started ****
+09:38:31.548 [main] DEBUG TestCases.CartPageTest - This is a debug log message
+09:38:32.386 [main] INFO  TestCases.CartPageTest - ***** Clicked on Add to Cart ****
+09:38:32.415 [main] INFO  TestCases.CartPageTest - ***** Ended TC001_CartPageTest Started ****"
+09:38:38.731 [main] INFO  TestCases.HomePageTest - Starting test: verifyProductSearch
+09:38:38.732 [main] DEBUG TestCases.HomePageTest - Created HomePage object
+09:38:40.076 [main] INFO  TestCases.HomePageTest - Searched for product: 'dress'
+09:38:40.077 [main] DEBUG TestCases.HomePageTest - Search result text: "DRESS"
+09:38:40.077 [main] INFO  TestCases.HomePageTest - Search results contain the word 'DRESS' - Test Passed
+09:38:40.077 [main] INFO  TestCases.HomePageTest - Ending test: verifyProductSearch
+09:38:46.414 [main] INFO  TestCases.ProductPageTest - Starting test: verifyAddToCartAndCheckout
+09:38:46.415 [main] DEBUG TestCases.ProductPageTest - Created ProductPage object
+09:38:49.417 [main] DEBUG TestCases.ProductPageTest - Waiting for product page to load
+09:38:51.324 [main] INFO  TestCases.ProductPageTest - Clicked 'Add to Cart' button
+09:38:54.349 [main] DEBUG TestCases.ProductPageTest - Retrieved cart message: Your shopping cart is empty.
+09:38:54.349 [main] INFO  TestCases.ProductPageTest - Verified that cart is empty
+09:38:54.349 [main] INFO  TestCases.ProductPageTest - Ending test: verifyAddToCartAndCheckout
+09:39:01.589 [main] INFO  TestCases.RegistrationDDTTest - Starting Data-Driven Registration Test
+09:39:01.589 [main] DEBUG TestCases.RegistrationDDTTest - Excel file path: C:\Users\ruchika\eclipse-workspace\Ruchika\MyShopAutomation\Test Data\Registration.xlsx
+09:39:01.728 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+09:39:01.731 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+09:39:02.109 [main] INFO  TestCases.RegistrationDDTTest - Total rows in Excel: 2
+09:39:02.122 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+09:39:02.123 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+09:39:02.158 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+09:39:02.160 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+09:39:02.188 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+09:39:02.189 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+09:39:02.207 [main] INFO  TestCases.RegistrationDDTTest - Executing registration for: QmtpK@gmail.com
+09:39:02.208 [main] DEBUG TestCases.RegistrationDDTTest - First Name: John, Last Name: Doe, Password: test@123
+09:39:03.475 [main] INFO  TestCases.RegistrationDDTTest - Started account creation with email: QmtpK@gmail.com
+09:39:06.592 [main] INFO  TestCases.RegistrationDDTTest - Filled registration form for: John Doe
+09:39:13.230 [main] INFO  TestCases.RegistrationDDTTest - Submitted registration form
+09:39:14.383 [main] INFO  TestCases.RegistrationDDTTest - Signed out after registration
+09:39:14.389 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+09:39:14.390 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+09:39:14.418 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+09:39:14.419 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+09:39:14.447 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+09:39:14.449 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+09:39:14.467 [main] INFO  TestCases.RegistrationDDTTest - Executing registration for: qkpVe@gmail.com
+09:39:14.467 [main] DEBUG TestCases.RegistrationDDTTest - First Name: Jane, Last Name: Smith, Password: test@456
+09:39:16.914 [main] INFO  TestCases.RegistrationDDTTest - Started account creation with email: qkpVe@gmail.com
+09:39:20.048 [main] INFO  TestCases.RegistrationDDTTest - Filled registration form for: Jane Smith
+09:39:27.678 [main] INFO  TestCases.RegistrationDDTTest - Submitted registration form
+09:39:28.732 [main] INFO  TestCases.RegistrationDDTTest - Signed out after registration
+09:39:28.733 [main] INFO  TestCases.RegistrationDDTTest - Data-Driven Registration Test Completed
